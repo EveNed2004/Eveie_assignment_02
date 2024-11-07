@@ -1,0 +1,217 @@
+
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 1000px) {
+    .navbar {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; 
+    }
+  }
+.navbar a {
+    float:left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.navbar{
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a:hover {
+    background-color: #757575;
+}
+.navbar a:visited {
+    color:rgb(65, 27, 27);
+}
+.navbar a:active {
+    background-color: #464646;
+}
+body, html {
+    min-height: 100vh;
+    margin: 0;
+}
+@media screen and (max-width:1000px) {
+    .navbar{
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+      }
+}
+
+.navbar-2{
+    width: 50%;
+    background-color: #555;
+    overflow: auto;
+  }
+.navbar-2 a{
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-left: 10px;
+
+}
+.navbar-2 a:hover {
+    background-color: #757575;
+}
+.navbar-2 a:active {
+    background-color: #461111;
+}
+navbar-2 a:visited {
+    color:rgb(61, 13, 13);
+}
+@media screen and (max-width:1000px) {
+    .grid-parent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.grid-parent{
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-column: span 2;
+}
+@media screen and (max-width:1000px) {
+    img{
+        max-width: 100%;
+    border-bottom: 3px double white;
+    }
+}
+img{
+    max-width: 100%;
+    border-bottom: 3px double white;
+}
+body {
+background-color: black;
+}
+@media screen and (max-width:1000px){
+    h1 {
+        font-family: "Tangerine", cursive;
+        font-size: 80%;
+        text-align: center;
+        color: white;
+        
+        
+    
+    }
+}
+h1 {
+    font-family: "Tangerine", cursive;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    
+    
+
+}
+.border2{
+    border-bottom: 3px double white;
+    
+}
+
+.border{
+    border-style: double;
+    border-color:white;
+}
+
+    
+@media screen and (max-width:1000px) {
+    h2 {
+        font-family: "IBM Plex Sans Condensed", sans-serif;
+      font-weight: 500;
+        font-size: 80%;
+        background-color: #2d2d2d;
+         color:white;
+         text-align: justify;
+         padding-left: 20px;
+         padding-left: 10px;
+         padding-bottom: 5px;
+         padding-top: 5px;
+    
+    }
+}
+h2 {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 500;
+    font-size: 24;
+    background-color: #2d2d2d;
+     color:white;
+     text-align: justify;
+     padding-left: 20px;
+     padding-left: 10px;
+     padding-bottom: 5px;
+     padding-top: 5px;
+
+}
+@media screen and (max-width:1000px) {
+    header {
+        padding-top: 20px;
+      
+        border-color: white;
+        text-align: center;
+        background-image: url("../images/redcurtain.png");
+        background-position: center;
+     }
+}
+header {
+   padding-top: 20px;
+ 
+   border-color: white;
+   text-align: center;
+   background-image: url("../images/redcurtain.png");
+   background-position: center;
+}
+
+.royal-red{
+    background-color: rgb(131, 15, 15);
+}
+.white{
+    background-color: rgb(243, 241, 241);
+}
+@media screen and (max-width:1000px){
+    section{
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+        
+     }
+}
+section{
+   padding-left: 30px;
+   padding-bottom: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+   
+}
+@media screen and (max-width:1000px) {
+    p {
+        color:white;
+        font-size: 80%;
+        text-align: left;
+        
+    }
+}
+p {
+    color:white;
+    font-size: 20px;
+    text-align: left;
+    
+}
+video {
+    max-width:100% ;
+    max-height: auto;
+    align-content: center;
+}
